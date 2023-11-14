@@ -40,7 +40,7 @@ const Home = () => {
         <div className="">
           <div className="container mx-auto flex flex-col-reverse md:flex-row justify-center items-center">
             <div>
-              <h2 className="text-2xl font-semibold mb-5">
+              <h2 className="text-2xl font-semibold mb-5 uppercase md:text-3xl">
                 Schedule a Consultation
               </h2>
               <p>
@@ -52,13 +52,13 @@ const Home = () => {
             <Image className="h-full" src={costalStay} alt="Quienes somos" />
           </div>
         </div>
-        <div className="md:bg-blue-400 md:text-white md:py-2 md:my-5">
+        <div className="md:bg-blue-400 md:py-2 md:my-5">
           <div className="container mx-auto my-10 w-full ">
-            <h2 className="text-2xl font-semibold mb-5">
+            <h2 className="text-2xl font-semibold mb-5 text-white drop-shadow uppercase md:text-3xl">
               Benefits of Choosing Us
             </h2>
             <div className="md:flex md:flex-row md:gap-5">
-              <div className="my-5 flex justify-center md:w-full">
+              <div className="my-5 flex justify-center md:w-full md:bg-white rounded-md">
                 <div className="p-5 flex flex-col text-center items-center gap-5 shadow-lg w-full">
                   <div>
                     <FaUmbrellaBeach className="text-5xl drop-shadow" />
@@ -71,7 +71,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="my-5 flex justify-center md:w-full">
+              <div className="my-5 flex justify-center md:w-full md:bg-white rounded-md">
                 <div className="p-5 flex flex-col text-center items-center gap-5 shadow-lg w-full">
                   <div>
                     <AiOutlineClockCircle className="text-5xl drop-shadow" />
@@ -86,7 +86,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="my-5 flex justify-center md:w-full">
+              <div className="my-5 flex justify-center md:w-full md:bg-white rounded-md">
                 <div className="p-5 flex flex-col text-center items-center gap-5 shadow-lg w-full">
                   <div>
                     <BiBuilding className="text-5xl drop-shadow" />
@@ -99,7 +99,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="my-5 flex justify-center md:w-full">
+              <div className="my-5 flex justify-center md:w-full md:bg-white rounded-md">
                 <div className="p-5 flex flex-col text-center items-center gap-5 shadow-lg w-full">
                   <div>
                     <PiMedalThin className="text-5xl  drop-shadow" />
@@ -117,7 +117,7 @@ const Home = () => {
         </div>
         <div className="">
           <div className="container mx-auto">
-            <h2 className="text-2xl font-semibold mb-5">Reviews</h2>
+            <h2 className="text-2xl font-semibold mb-5 uppercase md:text-3xl">Reviews</h2>
             <div className="md:flex md:flex-row md:justify-center">
               <div className="md:w-1/3">
                 <Image
